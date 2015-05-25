@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wix/creditcards"
+    "url": "https://github.com/wix/creditcards-info"
   },
   "keywords": [
     "wix",
@@ -18,9 +18,9 @@
   "author": "Wix Restaurants",
   "license": "Apache",
   "bugs": {
-    "url": "https://github.com/wix/creditcards/issues"
+    "url": "https://github.com/wix/creditcards-info/issues"
   },
-  "homepage": "https://github.com/wix/creditcards",
+  "homepage": "https://github.com/wix/creditcards-info",
   "dependencies": {},
   "devDependencies": {
     "chai": "^2.1.2",
