@@ -1,0 +1,23 @@
+{
+    "fields": {
+        "number": "Number",
+        "expiration": "Expiration",
+        "csc": "Security code",
+        "holderId": "Card holder ID",
+        "holderName": "Card holder name",
+        "billingAddress": "Billing address",
+        "billingPostalCode": "Billing postal code"
+    },
+    "networks": {
+        "amex": "American Express",
+        "dankort": "Dankort",
+        "diners": "Diners",
+        "discover": "Discover",
+        "isracard": "Isracard",
+        "jcb": "JCB",
+        "maestro": "Maestro",
+        "mastercard": "MasterCard",
+        "unionpay": "UnionPay",
+        "visa": "Visa"
+    }
+}
