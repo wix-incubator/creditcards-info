@@ -1,20 +1,28 @@
 var _ = require("lodash");
 var locales  = require("./locales");
 
+// Networks are ordered by ubiquity. That is, how many countries accept it, rather than
+// how many card holders of a specific network there are (ahem UnionPay)
 var creditcardNetworks = {
+    "visa"       : {
+    },
+
+    "mastercard" : {
+    },
+
     "amex"       : {
+    },
+
+    "discover"   : {
+    },
+
+    "diners"   : {
     },
 
     "dankort"    : {
         countries : [
             "DK",
         ],
-    },
-
-    "diners"   : {
-    },
-
-    "discover"   : {
     },
 
     "isracard"   : {
@@ -29,13 +37,7 @@ var creditcardNetworks = {
     "maestro"    : {
     },
 
-    "mastercard" : {
-    },
-
     "unionpay"   : {
-    },
-
-    "visa"       : {
     },
 };
 
