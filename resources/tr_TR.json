@@ -1,20 +1,20 @@
 {
     "creditcards": {
         "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
+            "number": "Numara",
+            "expiration": "Son Kullanma Tarihi",
+            "csc": "Güvenlik Kodu",
+            "holderId": "Kart Sahibi Kimlik Numarası",
+            "holderName": "Kart Sahibinin Adı",
+            "billingAddress": "Fatura Adresi",
+            "billingPostalCode": "Fatura Posta Kodu"
         },
         "networks": {
             "amex": "American Express",
             "dankort": "Dankort",
             "diners": "Diners",
             "discover": "Discover",
-            "isracard": "Isracard",
+            "isracard": "İsracard",
             "jcb": "JCB",
             "maestro": "Maestro",
             "mastercard": "MasterCard",

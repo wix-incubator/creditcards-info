@@ -1,13 +1,13 @@
 {
     "creditcards": {
         "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
+            "number": "Número",
+            "expiration": "Data de expiração",
+            "csc": "Código de segurança",
+            "holderId": "Identidade do titular do cartão",
+            "holderName": "Nome do titular do cartão",
+            "billingAddress": "Endereço da fatura",
+            "billingPostalCode": "Código postal/CEP da fatura"
         },
         "networks": {
             "amex": "American Express",

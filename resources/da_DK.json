@@ -1,13 +1,13 @@
 {
     "creditcards": {
         "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
+            "number": "Nummer",
+            "expiration": "Udløbsdato",
+            "csc": "Kontrolkode",
+            "holderId": "ID af kortindehaver",
+            "holderName": "Kortindehaver",
+            "billingAddress": "Faktureringsadresse",
+            "billingPostalCode": "Faktureringspostnummer"
         },
         "networks": {
             "amex": "American Express",

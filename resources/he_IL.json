@@ -1,23 +1,25 @@
 {
-    "fields": {
-        "number": "מספר",
-        "expiration": "תוקף",
-        "csc": "3 ספרות בגב הכרטיס",
-        "holderId": "ת.ז.",
-        "holderName": "שם בעל הכרטיס",
-        "billingAddress": "כתובת בעל הכרטיס",
-        "billingPostalCode": "מיקוד בעל הכרטיס"
-    },
-    "networks": {
-        "amex": "אמריקן אקספרס",
-        "dankort": "דנקורט",
-        "diners": "דיינרס",
-        "discover": "דיסקאבר",
-        "isracard": "ישראכרט",
-        "jcb": "JCB",
-        "maestro": "מאסטרו",
-        "mastercard": "מסטרקארד",
-        "unionpay": "יוניון פיי",
-        "visa": "ויזה"
+    "creditcards": {
+        "fields": {
+            "number": "מספר",
+            "expiration": "תוקף",
+            "csc": "3 ספרות בגב הכרטיס",
+            "holderId": "ת.ז.",
+            "holderName": "שם בעל הכרטיס",
+            "billingAddress": "כתובת בעל הכרטיס",
+            "billingPostalCode": "מיקוד בעל הכרטיס"
+        },
+        "networks": {
+            "amex": "אמריקן אקספרס",
+            "dankort": "דנקורט",
+            "diners": "דיינרס",
+            "discover": "דיסקאבר",
+            "isracard": "ישראכרט",
+            "jcb": "JCB",
+            "maestro": "מאסטרו",
+            "mastercard": "מסטרקארד",
+            "unionpay": "יוניון פיי",
+            "visa": "ויזה"
+        }
     }
 }

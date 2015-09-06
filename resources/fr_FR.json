@@ -1,13 +1,13 @@
 {
     "creditcards": {
         "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
+            "number": "Numéro",
+            "expiration": "Date d'expiration",
+            "csc": "Code de sécurité",
+            "holderId": "ID propriétaire de la carte",
+            "holderName": "Nom du propriétaire de la carte",
+            "billingAddress": "Adresse de facturation",
+            "billingPostalCode": "Code Postal"
         },
         "networks": {
             "amex": "American Express",
@@ -17,7 +17,7 @@
             "isracard": "Isracard",
             "jcb": "JCB",
             "maestro": "Maestro",
-            "mastercard": "MasterCard",
+            "mastercard": "Master Card",
             "unionpay": "UnionPay",
             "visa": "Visa"
         }
