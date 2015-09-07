@@ -74,7 +74,7 @@ module.exports = {
 
     getCreditcardName : function(locale, networkId) {
         if (_.has(locales, locale)) {
-            var network = locales[locale].networks[networkId];
+            var network = locales[locale].creditcards.networks[networkId];
             if (network) {
                 return network;
             }
@@ -84,7 +84,7 @@ module.exports = {
 
     getFieldName : function(locale, fieldId) {
         if (_.has(locales, locale)) {
-            var field = locales[locale].fields[fieldId];
+            var field = locales[locale].creditcards.fields[fieldId];
             if (field) {
                 return field;
             }
