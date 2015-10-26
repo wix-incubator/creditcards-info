@@ -1,14 +1,5 @@
 {
     "creditcards": {
-        "fields": {
-            "number": "Nummer",
-            "expiration": "Vervaldatum",
-            "csc": "Beveiligingscode",
-            "holderId": "ID-nummer kaarthouder",
-            "holderName": "Naam kaarthouder",
-            "billingAddress": "Factuuradres",
-            "billingPostalCode": "Postcode factuuradres"
-        },
         "networks": {
             "amex": "American Express",
             "dankort": "Dankort",
@@ -20,6 +11,15 @@
             "mastercard": "MasterCard",
             "unionpay": "UnionPay",
             "visa": "Visa"
+        },
+        "fields": {
+            "number": "Nummer",
+            "expiration": "Vervaldatum",
+            "csc": "Beveiligingscode",
+            "holderId": "ID-nummer kaarthouder",
+            "holderName": "Naam kaarthouder",
+            "billingAddress": "Factuuradres",
+            "billingPostalCode": "Postcode factuuradres"
         }
     }
 }

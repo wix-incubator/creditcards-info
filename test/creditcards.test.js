@@ -8,8 +8,8 @@ describe("English locale tests (en_US)", function() {
     	expect(creditcards.getCreditcardName("en_US", "visa")).to.equal("Visa");
     });
 
-    it ('returns "Expiration" for "expiration" (field name)', function() {
-    	expect(creditcards.getFieldName("en_US", "expiration")).to.equal("Expiration");
+    it ('returns "Expiry Date" for "expiration" (field name)', function() {
+    	expect(creditcards.getFieldName("en_US", "expiration")).to.equal("Expiry Date");
     });
 });
 

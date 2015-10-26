@@ -1,14 +1,5 @@
 {
     "creditcards": {
-        "fields": {
-            "number": "Nummer",
-            "expiration": "Utgångsdatum",
-            "csc": "Säkerhetskod",
-            "holderId": "Kortinnehavarens personnummer",
-            "holderName": "Kortinnehavarens namn",
-            "billingAddress": "Faktureringsadress",
-            "billingPostalCode": "Postnummer för fakturering"
-        },
         "networks": {
             "amex": "American Express",
             "dankort": "Dankort",
@@ -20,6 +11,15 @@
             "mastercard": "MasterCard",
             "unionpay": "UnionPay",
             "visa": "Visa"
+        },
+        "fields": {
+            "number": "Nummer",
+            "expiration": "Utgångsdatum",
+            "csc": "Säkerhetskod",
+            "holderId": "Kortinnehavarens personnummer",
+            "holderName": "Kortinnehavarens namn",
+            "billingAddress": "Faktureringsadress",
+            "billingPostalCode": "Postnummer för fakturering"
         }
     }
 }

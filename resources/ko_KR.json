@@ -1,14 +1,5 @@
 {
     "creditcards": {
-        "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
-        },
         "networks": {
             "amex": "American Express",
             "dankort": "Dankort",
@@ -20,6 +11,15 @@
             "mastercard": "MasterCard",
             "unionpay": "UnionPay",
             "visa": "Visa"
+        },
+        "fields": {
+            "number": "카드번호",
+            "expiration": "만료일",
+            "csc": "보안코드",
+            "holderId": "카드소유자 ID",
+            "holderName": "카드소유자 이름",
+            "billingAddress": "결제 주소",
+            "billingPostalCode": "청구지 우편번호"
         }
     }
 }

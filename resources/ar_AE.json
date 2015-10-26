@@ -1,14 +1,5 @@
 {
     "creditcards": {
-        "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
-        },
         "networks": {
             "amex": "American Express",
             "dankort": "Dankort",
@@ -20,6 +11,15 @@
             "mastercard": "MasterCard",
             "unionpay": "UnionPay",
             "visa": "Visa"
+        },
+        "fields": {
+            "number": "Number",
+            "expiration": "Expiry Date",
+            "csc": "Security Code",
+            "holderId": "Cardholder ID",
+            "holderName": "Cardholder Name",
+            "billingAddress": "Billing Address",
+            "billingPostalCode": "Billing Postal Code"
         }
     }
 }

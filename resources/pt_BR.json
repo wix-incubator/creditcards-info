@@ -1,14 +1,5 @@
 {
     "creditcards": {
-        "fields": {
-            "number": "Número",
-            "expiration": "Data de expiração",
-            "csc": "Código de segurança",
-            "holderId": "Identidade do titular do cartão",
-            "holderName": "Nome do titular do cartão",
-            "billingAddress": "Endereço da fatura",
-            "billingPostalCode": "Código postal/CEP da fatura"
-        },
         "networks": {
             "amex": "American Express",
             "dankort": "Dankort",
@@ -20,6 +11,15 @@
             "mastercard": "MasterCard",
             "unionpay": "UnionPay",
             "visa": "Visa"
+        },
+        "fields": {
+            "number": "Número",
+            "expiration": "Data de expiração",
+            "csc": "Código de segurança",
+            "holderId": "Identidade do titular do cartão",
+            "holderName": "Nome do titular do cartão",
+            "billingAddress": "Endereço da fatura",
+            "billingPostalCode": "Código postal/CEP da fatura"
         }
     }
 }
