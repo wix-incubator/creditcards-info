@@ -1,5 +1,14 @@
 {
     "creditcards": {
+        "fields": {
+            "number": "Numer",
+            "expiration": "Data ważności",
+            "csc": "Kod zabezpieczający",
+            "holderId": "ID posiadacza karty",
+            "holderName": "Imię i nazwisko posiadacza karty",
+            "billingAddress": "Adres do celów rozliczeniowych",
+            "billingPostalCode": "Kod pocztowy adresu do rozliczeń"
+        },
         "networks": {
             "amex": "American Express",
             "dankort": "Dankort",
@@ -11,15 +20,6 @@
             "mastercard": "MasterCard",
             "unionpay": "UnionPay",
             "visa": "Visa"
-        },
-        "fields": {
-            "number": "Numer",
-            "expiration": "Data ważności",
-            "csc": "Kod zabezpieczający",
-            "holderId": "ID posiadacza karty",
-            "holderName": "Imię i nazwisko posiadacza karty",
-            "billingAddress": "Adres do celów rozliczeniowych",
-            "billingPostalCode": "Kod pocztowy adresu do rozliczeń"
         }
     }
 }

@@ -1,5 +1,14 @@
 {
     "creditcards": {
+        "fields": {
+            "number": "Numara",
+            "expiration": "Son Kullanma Tarihi",
+            "csc": "Güvenlik Kodu",
+            "holderId": "Kart Sahibi Kimlik Numarası",
+            "holderName": "Kart Sahibinin Adı",
+            "billingAddress": "Fatura Adresi",
+            "billingPostalCode": "Fatura Posta Kodu"
+        },
         "networks": {
             "amex": "American Express",
             "dankort": "Dankort",
@@ -11,15 +20,6 @@
             "mastercard": "MasterCard",
             "unionpay": "UnionPay",
             "visa": "Visa"
-        },
-        "fields": {
-            "number": "Numara",
-            "expiration": "Son Kullanma Tarihi",
-            "csc": "Güvenlik Kodu",
-            "holderId": "Kart Sahibi Kimlik Numarası",
-            "holderName": "Kart Sahibinin Adı",
-            "billingAddress": "Fatura Adresi",
-            "billingPostalCode": "Fatura Posta Kodu"
         }
     }
 }

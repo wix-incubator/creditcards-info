@@ -1,5 +1,14 @@
 {
     "creditcards": {
+        "fields": {
+            "number": "Номер",
+            "expiration": "Действует до",
+            "csc": "Код безопасности",
+            "holderId": "ID владельца карты",
+            "holderName": "Имя владельца карты",
+            "billingAddress": "Расчетный адрес",
+            "billingPostalCode": "Расчетный индекс"
+        },
         "networks": {
             "amex": "American Express",
             "dankort": "Dankort",
@@ -11,15 +20,6 @@
             "mastercard": "MasterCard",
             "unionpay": "UnionPay",
             "visa": "Visa"
-        },
-        "fields": {
-            "number": "Номер",
-            "expiration": "Действует до",
-            "csc": "Код безопасности",
-            "holderId": "ID владельца карты",
-            "holderName": "Имя владельца карты",
-            "billingAddress": "Расчетный адрес",
-            "billingPostalCode": "Расчетный индекс"
         }
     }
 }
