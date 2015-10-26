@@ -1,6 +1,6 @@
 {
   "name": "creditcards-info",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Lists various credit card networks. Used by Wix Restaurants for credit card configuration.",
   "main": "index.js",
   "scripts": {
