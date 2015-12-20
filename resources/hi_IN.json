@@ -1,19 +1,19 @@
 {
     "creditcards": {
         "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
+            "number": "संख्या",
+            "expiration": "समाप्ति तिथि",
+            "csc": "सुरक्षा कोड",
+            "holderId": "कार्डधारक की ID",
+            "holderName": "कार्डधारक का नाम",
+            "billingAddress": "बिलिंग पता",
+            "billingPostalCode": "बिलिंग डाक कोड"
         },
         "networks": {
-            "amex": "American Express",
+            "amex": "अमेरिकन एक्सप्रेस",
             "dankort": "Dankort",
-            "diners": "Diners",
-            "discover": "Discover",
+            "diners": "डाइनर्स",
+            "discover": "डिस्कवर",
             "isracard": "Isracard",
             "jcb": "JCB",
             "maestro": "Maestro",

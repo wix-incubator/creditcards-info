@@ -1,19 +1,19 @@
 {
     "creditcards": {
         "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
+            "number": "Номер",
+            "expiration": "Срок на годност",
+            "csc": "Код за сигурност",
+            "holderId": "ID на картодържателя",
+            "holderName": "Име на картодържателя",
+            "billingAddress": "Адрес за фактуриране",
+            "billingPostalCode": "Пощенски код за фактуриране"
         },
         "networks": {
             "amex": "American Express",
             "dankort": "Dankort",
             "diners": "Diners",
-            "discover": "Discover",
+            "discover": "Открийте",
             "isracard": "Isracard",
             "jcb": "JCB",
             "maestro": "Maestro",

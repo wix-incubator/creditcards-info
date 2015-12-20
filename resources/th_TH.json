@@ -1,13 +1,13 @@
 {
     "creditcards": {
         "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
+            "number": "หมายเลข",
+            "expiration": "วันที่บัตรหมดอายุ",
+            "csc": "รหัสความปลอดภัย",
+            "holderId": "ID ของผู้ถือบัตร",
+            "holderName": "ชื่อของผู้ถือบัตร",
+            "billingAddress": "ที่อยู่สำหรับใบเรียกชำระ",
+            "billingPostalCode": "รหัสไปรษณีย์สำหรับใบเรียกชำระ"
         },
         "networks": {
             "amex": "American Express",

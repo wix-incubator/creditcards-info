@@ -1,13 +1,13 @@
 {
     "creditcards": {
         "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
+            "number": "Szám",
+            "expiration": "Lejárat dátuma",
+            "csc": "Biztonsági kód",
+            "holderId": "Kártyabirtokos azonosítója",
+            "holderName": "Kártyabirtokos neve",
+            "billingAddress": "Számlázási cím",
+            "billingPostalCode": "Számlázási cím irányítószáma"
         },
         "networks": {
             "amex": "American Express",
