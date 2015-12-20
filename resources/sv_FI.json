@@ -1,0 +1,25 @@
+{
+    "creditcards": {
+        "fields": {
+            "number": "Nummer",
+            "expiration": "Utgångsdatum",
+            "csc": "Säkerhetskod",
+            "holderId": "Kortinnehavarens personnummer",
+            "holderName": "Kortinnehavarens namn",
+            "billingAddress": "Faktureringsadress",
+            "billingPostalCode": "Postnummer för fakturering"
+        },
+        "networks": {
+            "amex": "American Express",
+            "dankort": "Dankort",
+            "diners": "Diners",
+            "discover": "Discover",
+            "isracard": "Isracard",
+            "jcb": "JCB",
+            "maestro": "Maestro",
+            "mastercard": "MasterCard",
+            "unionpay": "UnionPay",
+            "visa": "Visa"
+        }
+    }
+}

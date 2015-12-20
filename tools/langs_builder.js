@@ -27,7 +27,7 @@ Q().then(function() {
     // Generate all locales and corresponding tokens in an object
     return GitToI18NGenerator.default.generate({gitProjectPath : repo.path});
 }).then(function(results) {
-    // Write each locale and its tokens to its own file
+    // Break down the object into tokens only
     var tokens = {};
     _.each(results, function(data, locale) {
         tokens[locale] = tokens[locale] || {};
@@ -43,7 +43,12 @@ Q().then(function() {
 
             obj[key] = val;
         });
-        fs.writeFileSync(path.join(__dirname, "..", "resources", locale + ".json"), JSON.stringify(tokens[locale], null, 4), 'utf8');
+    });
+    return tokens;
+}).then(function(tokens) {
+    // Write the individual locale files
+    _.each(tokens, function(data, locale) {
+        fs.writeFileSync(path.join(__dirname, "..", "resources", locale + ".json"), JSON.stringify(data, null, 4), 'utf8');
     });
     return tokens;
 }).then(function(tokens) {

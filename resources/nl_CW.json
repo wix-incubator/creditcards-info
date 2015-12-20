@@ -1,0 +1,25 @@
+{
+    "creditcards": {
+        "fields": {
+            "number": "Nummer",
+            "expiration": "Vervaldatum",
+            "csc": "Beveiligingscode",
+            "holderId": "ID-nummer kaarthouder",
+            "holderName": "Naam kaarthouder",
+            "billingAddress": "Factuuradres",
+            "billingPostalCode": "Postcode factuuradres"
+        },
+        "networks": {
+            "amex": "American Express",
+            "dankort": "Dankort",
+            "diners": "Diners",
+            "discover": "Discover",
+            "isracard": "Isracard",
+            "jcb": "JCB",
+            "maestro": "Maestro",
+            "mastercard": "MasterCard",
+            "unionpay": "UnionPay",
+            "visa": "Visa"
+        }
+    }
+}

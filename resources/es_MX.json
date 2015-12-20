@@ -1,0 +1,25 @@
+{
+    "creditcards": {
+        "fields": {
+            "number": "Número",
+            "expiration": "Fecha de vencimiento",
+            "csc": "Código de seguridad",
+            "holderId": "Identificación del titular de la tarjeta",
+            "holderName": "Nombre del titular",
+            "billingAddress": "Dirección de facturación",
+            "billingPostalCode": "Código postal de facturación"
+        },
+        "networks": {
+            "amex": "American Express",
+            "dankort": "Dankort",
+            "diners": "Diners",
+            "discover": "Discover",
+            "isracard": "Isracard",
+            "jcb": "JCB",
+            "maestro": "Maestro",
+            "mastercard": "MasterCard",
+            "unionpay": "UnionPay",
+            "visa": "Visa"
+        }
+    }
+}
