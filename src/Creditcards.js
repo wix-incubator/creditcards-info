@@ -53,8 +53,16 @@ var creditcardFields = {
     },
 
     holderId : {
+		// Taken from https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country#Countries_with_compulsory_identity_cards
         countries : [
-            "IL",
+            "AL", "AR", "BY", "BE", "BO", "BW", "BA", "BR", "BG", "MM",
+			"CL", "CN", "CO", "CR", "HR", "CU", "CY", "CZ", "DO", "EG",
+			"SV", "EE", "GM", "DE", "GR", "GT", "HK", "HU", "ID", "IR",
+			"IL", "JO", "KE", "KW", "LV", "LB", "LU", "MK", "MG", "MY",
+			"MT", "MU", "MD", "MA", "ME", "MZ", "NL", "KP", "PA", "PK",
+			"PS", "PE", "PL", "PT", "QA", "RO", "RU", "SA", "RS", "SG",
+			"SK", "SI", "ZA", "KR", "ES", "LK", "TW", "TH", "TN", "TR",
+			"UG", "UA", "AE", "UY", "VE", "VN", "ZW"
         ],
     },
 
