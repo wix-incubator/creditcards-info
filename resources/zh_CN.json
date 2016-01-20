@@ -1,25 +1,25 @@
 {
     "creditcards": {
         "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
+            "number": "卡号",
+            "expiration": "到期日",
+            "csc": "安全码",
+            "holderId": "持卡人 ID",
+            "holderName": "持卡人姓名",
+            "billingAddress": "账单寄送地址",
+            "billingPostalCode": "账单寄送地址邮政编码"
         },
         "networks": {
-            "amex": "American Express",
-            "dankort": "Dankort",
-            "diners": "Diners",
-            "discover": "Discover",
+            "amex": "美国运通卡",
+            "dankort": "Dankort 卡",
+            "diners": "大莱卡",
+            "discover": "发现卡",
             "isracard": "Isracard",
             "jcb": "JCB",
             "maestro": "Maestro",
-            "mastercard": "MasterCard",
-            "unionpay": "UnionPay",
-            "visa": "Visa"
+            "mastercard": "万事达卡",
+            "unionpay": "中国银联卡",
+            "visa": "Visa 卡"
         }
     }
 }

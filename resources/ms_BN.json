@@ -1,13 +1,13 @@
 {
     "creditcards": {
         "fields": {
-            "number": "Number",
-            "expiration": "Expiry Date",
-            "csc": "Security Code",
-            "holderId": "Cardholder ID",
-            "holderName": "Cardholder Name",
-            "billingAddress": "Billing Address",
-            "billingPostalCode": "Billing Postal Code"
+            "number": "Nombor",
+            "expiration": "Tarikh Luput",
+            "csc": "Kod Keselamatan",
+            "holderId": "ID Pemegang Kad",
+            "holderName": "Nama Pemegang Kad",
+            "billingAddress": "Alamat Pengebilan",
+            "billingPostalCode": "Poskod Pengebilan"
         },
         "networks": {
             "amex": "American Express",
