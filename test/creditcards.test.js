@@ -1,6 +1,6 @@
 var expect      = require('chai').expect;
 var _           = require("lodash");
-var creditcards = require("../src/creditcards.js");
+var creditcards = require("../src/Creditcards.js");
 
 
 describe("English locale tests (en_US)", function() {
