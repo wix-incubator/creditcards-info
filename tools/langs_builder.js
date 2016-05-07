@@ -9,7 +9,7 @@ var _ = require("lodash");
 
 
 Q().then(function() {
-    return GitToI18NGenerator.default.generate({gitProjectPath : './node_modules/@wix/creditcards-langs'});
+    return GitToI18NGenerator.generate({gitProjectPath : './node_modules/@wix/creditcards-langs'});
 }).then(function(results) {
     // Break down the object into tokens only
     var tokens = {};
