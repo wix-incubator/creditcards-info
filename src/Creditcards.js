@@ -75,8 +75,8 @@ var creditcardFields = {
 module.exports = {
     getCreditcardDataForCountry : function(countryCode) {
         return {
-            networks : _.reduce(creditcardNetworks, function(rc, network, name) {if (!network.countries || _.contains(network.countries, countryCode)) {rc.push(name)} return rc}, []),
-            fields   : _.reduce(creditcardFields,   function(rc, field, name)   {if (!field.countries   || _.contains(field.countries,   countryCode)) {rc.push(name)} return rc}, []),
+            networks : _.reduce(creditcardNetworks, function(rc, network, name) {if (!network.countries || _.includes(network.countries, countryCode)) {rc.push(name)} return rc}, []),
+            fields   : _.reduce(creditcardFields,   function(rc, field, name)   {if (!field.countries   || _.includes(field.countries,   countryCode)) {rc.push(name)} return rc}, []),
         };
     },
 
