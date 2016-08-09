@@ -42,41 +42,34 @@ var creditcardNetworks = {
 };
 
 
-var creditcardFields = {
-    billingAddress : {
-    },
-
-    billingPostalCode : {
-    },
-
-    csc : {
-    },
-
-    holderId : {
-		// Taken from https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country#Countries_with_compulsory_identity_cards
-        countries : [
+var creditcardFields = [
+    { name:'csc' },
+    { name: 'holderName' },
+    {
+        name: 'holderId',
+        countries: [
+        // Taken from https://en.wikipedia.org/wiki/List_of_national_identity_card_policies_by_country#Countries_with_compulsory_identity_cards
             "AL", "AR", "BY", "BE", "BO", "BW", "BA", "BR", "BG", "MM",
-			"CL", "CN", "CO", "CR", "HR", "CU", "CY", "CZ", "DO", "EG",
-			"SV", "EE", "GM", "DE", "GR", "GT", "HK", "HU", "ID", "IR",
-			"IL", "JO", "KE", "KW", "LV", "LB", "LU", "MK", "MG", "MY",
-			"MT", "MU", "MD", "MA", "ME", "MZ", "NL", "KP", "PA", "PK",
-			"PS", "PE", "PL", "PT", "QA", "RO", "RU", "SA", "RS", "SG",
-			"SK", "SI", "ZA", "KR", "ES", "LK", "TW", "TH", "TN", "TR",
-			"UG", "UA", "AE", "UY", "VE", "VN", "ZW"
+            "CL", "CN", "CO", "CR", "HR", "CU", "CY", "CZ", "DO", "EG",
+            "SV", "EE", "GM", "DE", "GR", "GT", "HK", "HU", "ID", "IR",
+            "IL", "JO", "KE", "KW", "LV", "LB", "LU", "MK", "MG", "MY",
+            "MT", "MU", "MD", "MA", "ME", "MZ", "NL", "KP", "PA", "PK",
+            "PS", "PE", "PL", "PT", "QA", "RO", "RU", "SA", "RS", "SG",
+            "SK", "SI", "ZA", "KR", "ES", "LK", "TW", "TH", "TN", "TR",
+            "UG", "UA", "AE", "UY", "VE", "VN", "ZW"
         ],
     },
-
-    holderName : {
-    },
-};
+    { name:'billingAddress' },
+    { name:'billingPostalCode' }
+];
 
 
 
 module.exports = {
     getCreditcardDataForCountry : function(countryCode) {
         return {
-            networks : _.reduce(creditcardNetworks, function(rc, network, name) {if (!network.countries || _.includes(network.countries, countryCode)) {rc.push(name)} return rc}, []),
-            fields   : _.reduce(creditcardFields,   function(rc, field, name)   {if (!field.countries   || _.includes(field.countries,   countryCode)) {rc.push(name)} return rc}, []),
+            networks : _.reduce(creditcardNetworks, function(rc, network, name) {if (!network.countries || _.includes(network.countries, countryCode)) {rc.push(name)}       return rc}, []),
+            fields   : _.reduce(creditcardFields,   function(rc, field)         {if (!field.countries   || _.includes(field.countries,   countryCode)) {rc.push(field.name)} return rc}, []),
         };
     },
 
@@ -98,5 +91,11 @@ module.exports = {
             }
         }
         return "";
+    },
+
+    getFieldSortValue: function(fieldId) {
+        return _.findIndex(creditcardFields, function(field) {
+            return field.name === fieldId;
+        });
     },
 };
