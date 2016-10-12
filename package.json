@@ -7,7 +7,7 @@
     "test": "mocha --compilers js:babel/register",
     "prepublish": "node tools/langs_builder.js && npm test",
     "build": ":",
-    "release": "wnpm-release -- --no-shrinkwrap"
+    "release": "npm install @wix/wnpm-ci && wnpm-release -- --no-shrinkwrap"
   },
   "repository": {
     "type": "git",
@@ -36,9 +36,6 @@
     "recursive-readdir": "^1.2.1",
 	"@wix/creditcards-langs": "latest",
     "@wix/restaurants-i18n-builder": "latest"
-  },
-  "optionalDependencies": {
-    "@wix/wnpm-ci": "latest"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
