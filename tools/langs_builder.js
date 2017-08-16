@@ -1,10 +1,9 @@
 var GitToI18NGenerator = require('@wix/restaurants-i18n-builder').GitToI18NGenerator;
 var path = require('path');
 var fs = require('fs');
-var Q = require("q");
 var _ = require("lodash");
 
-Q().then(function() {
+Promise.resolve().then(function() {
     return GitToI18NGenerator.generate({gitProjectPath : './node_modules/@wix/creditcards-langs'});
 }).then(function(results) {
     // Break down the object into tokens only
