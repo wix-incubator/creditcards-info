@@ -24,8 +24,7 @@
   },
   "homepage": "https://github.com/wix/creditcards-info",
   "dependencies": {
-    "lodash": "^4.13.0",
-    "@wix/restaurants-i18n-builder": "latest"
+    "lodash": "^4.13.0"
   },
   "devDependencies": {
     "babel": "^5.8.21",
@@ -34,7 +33,8 @@
     "chai": "^3.2.0",
     "mocha": "^2.2.5",
     "recursive-readdir": "^1.2.1",
-	"@wix/creditcards-langs": "latest"
+	"@wix/creditcards-langs": "latest",
+    "@wix/restaurants-i18n-builder": "latest"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
