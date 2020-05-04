@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --compilers js:babel/register",
-    "prepublish": "node tools/langs_builder.js && npm test",
+    "prepublish": "npm run snyk-protect && node tools/langs_builder.js && npm test",
     "build": ":",
-    "release": "npm install wnpm-ci --no-save && wnpm-release -- --no-shrinkwrap"
+    "release": "npm install wnpm-ci --no-save && wnpm-release -- --no-shrinkwrap",
+    "snyk-protect": "snyk protect"
   },
   "repository": {
     "type": "git",
@@ -24,7 +25,8 @@
   },
   "homepage": "https://github.com/wix/creditcards-info",
   "dependencies": {
-    "lodash": "^4.13.0"
+    "lodash": "^4.13.0",
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "babel": "^5.8.21",
@@ -33,10 +35,11 @@
     "chai": "^3.2.0",
     "mocha": "^2.2.5",
     "recursive-readdir": "^1.2.1",
-	"@wix/creditcards-langs": "latest",
+    "@wix/creditcards-langs": "latest",
     "@wix/restaurants-i18n-builder": "latest"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
-  }
+  },
+  "snyk": true
 }
